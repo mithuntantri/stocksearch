@@ -1,0 +1,10 @@
+{
+	"AWS_REGION": "us-***-1",
+	"AWS_ACTID" : "xxx8542",
+	"AWS_ROLE": "arn:aws:iam::xxx8542:role/lambda_role_execution",
+	"RUNTIME_controllers": "nodejs8.10",
+	"SECURITY_GROUP1" : "sg-xxx38",
+	"SECURITY_GROUP2" : "sg-xxx36",
+	"SUBNET_ID1" : "subnet-xxx18",
+	"SUBNET_ID2" : "subnet-xxx89"
+}

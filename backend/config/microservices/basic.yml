@@ -1,0 +1,14 @@
+api-nsecorpactions:
+  handler: methods/nsecorpactions/scrapeNSE.scrapeNSE
+  package:
+    exclude:
+      - ./services/**
+      - ./views/**
+      - ./methods/**
+      - ./config/**
+      - '!./methods/lib/buildResponse*'
+  events:
+    - http:
+        path: api/nsecorpactions/search
+        method: get
+        cors: true
